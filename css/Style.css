@@ -1,0 +1,55 @@
+/*h1 {
+  color: brown;
+  border: solid 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+} */
+
+.brown {
+  color: brown;
+  border: solid 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.green {
+  color: rgb(23, 189, 51);
+  border: solid 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.blue {
+  color: rgb(216, 236, 32);
+  border: solid 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+#Specific,
+.blue,
+.green {
+  border: 5px dashed blue;
+}
+
+section h3 {
+  color: coral;
+}
+
+h1 + p {
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em;
+}
+
+/*article > p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+} */

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 15%;
+}
+li {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  width: 75%;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+  border: none;
+}
+a:hover {
+  color: black;
+  background-color: #2f9b9a;
+  transition: all 0.5s;
+}
+header {
+  background: rgb(17, 79, 104);
+}
+h1 {
+  color: #2f9b9a;
+  padding: 1em;
+  font-family: "Poppins";
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+}
+
+h1 ~ p {
+  color: aliceblue;
+  padding: 1em;
+  font-family: "Poppins";
+  font-weight: lighter;
+  text-align: center;
+  font-size: 24px;
+}
